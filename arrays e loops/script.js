@@ -11,5 +11,17 @@ for (var i = 0; i < brasilCampeao.length; i++) {
 // Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
 var frutas = ["Banana", "Maçã", "Pera", "Uva", "Melância"];
 
+for (var fruta = 0; fruta < frutas.length; fruta++) {
+  console.log(frutas[fruta]);
+  if (frutas[fruta] === "Pera") {
+    break;
+  }
+}
+
 // Coloque a última fruta da array acima em uma variável,
 // sem remover a mesma da array.
+
+/*seria usado para chamar a última fruta, porém o pop retira ela da array. var ultimaFruta = frutas.pop();
+ */
+
+var ultimaFruta = frutas[frutas.length - 1]; //jeito certo
