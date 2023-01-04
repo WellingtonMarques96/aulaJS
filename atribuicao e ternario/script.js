@@ -9,5 +9,5 @@ console.log(scroll);
 // E false caso o contrário.
 var possuiCarro = true;
 var possuiCasa = false;
-var darCredito = possuiCarro && possuiCasa;
+darCredito = possuiCarro && possuiCasa;
 console.log(darCredito);
